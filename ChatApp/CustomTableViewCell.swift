@@ -10,6 +10,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    
     @IBOutlet weak var messageText: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -22,6 +23,9 @@ class CustomTableViewCell: UITableViewCell {
         
         
         messageText.textColor = .black
+        
+        messageText.layer.cornerRadius = 10
+        messageText.clipsToBounds = true
 
         // Configure the view for the selected state
     }

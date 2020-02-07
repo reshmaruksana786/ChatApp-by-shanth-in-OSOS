@@ -1,5 +1,5 @@
 //
-//  Custom2TableViewCell.swift
+//  custom3TableViewCell.swift
 //  ChatApp
 //
 //  Created by Vidushi Duhan on 05/02/20.
@@ -8,16 +8,11 @@
 
 import UIKit
 
-class Custom2TableViewCell: UITableViewCell {
-
-    @IBOutlet weak var messageLbl2: UILabel!
-    
+class custom3TableViewCell: UITableViewCell {
+    @IBOutlet weak var label3: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        messageLbl2.layer.cornerRadius = 10
-        messageLbl2.clipsToBounds = true
         // Initialization code
     }
 

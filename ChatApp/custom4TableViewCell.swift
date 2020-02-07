@@ -1,5 +1,5 @@
 //
-//  Custom2TableViewCell.swift
+//  custom4TableViewCell.swift
 //  ChatApp
 //
 //  Created by Vidushi Duhan on 05/02/20.
@@ -8,16 +8,11 @@
 
 import UIKit
 
-class Custom2TableViewCell: UITableViewCell {
+class custom4TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var messageLbl2: UILabel!
-    
-    
+    @IBOutlet weak var label4: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        messageLbl2.layer.cornerRadius = 10
-        messageLbl2.clipsToBounds = true
         // Initialization code
     }
 

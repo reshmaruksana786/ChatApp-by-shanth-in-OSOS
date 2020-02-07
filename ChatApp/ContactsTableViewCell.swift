@@ -1,23 +1,21 @@
 //
-//  Custom2TableViewCell.swift
+//  ContactsTableViewCell.swift
 //  ChatApp
 //
-//  Created by Vidushi Duhan on 05/02/20.
+//  Created by Vidushi Duhan on 06/02/20.
 //  Copyright © 2020 Vidushi Duhan. All rights reserved.
 //
 
 import UIKit
 
-class Custom2TableViewCell: UITableViewCell {
+class ContactsTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var messageLbl2: UILabel!
-    
-    
+    @IBOutlet weak var contactLbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        messageLbl2.layer.cornerRadius = 10
-        messageLbl2.clipsToBounds = true
+        contactLbl.layer.cornerRadius = 10
+        contactLbl.clipsToBounds = true
         // Initialization code
     }
 

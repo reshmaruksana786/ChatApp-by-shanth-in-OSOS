@@ -16,13 +16,14 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="71"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lV-D9-1Ru">
-                        <rect key="frame" x="16" y="12" width="247" height="48"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lV-D9-1Ru">
+                        <rect key="frame" x="10" y="12" width="44" height="48"/>
                         <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="48" id="2uc-uc-qSU"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="2uc-uc-qSU"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="vlA-9J-GJh"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -30,8 +31,8 @@
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="3lV-D9-1Ru" secondAttribute="bottom" constant="11" id="95s-dA-EYx"/>
                     <constraint firstItem="3lV-D9-1Ru" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="MbD-xt-MGv"/>
-                    <constraint firstItem="3lV-D9-1Ru" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="dJW-FV-H7d"/>
-                    <constraint firstAttribute="trailing" secondItem="3lV-D9-1Ru" secondAttribute="trailing" constant="57" id="pTJ-cw-Jzs"/>
+                    <constraint firstItem="3lV-D9-1Ru" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="dJW-FV-H7d"/>
+                    <constraint firstAttribute="trailing" secondItem="3lV-D9-1Ru" secondAttribute="trailing" priority="250" constant="57" id="pTJ-cw-Jzs"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
